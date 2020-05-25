@@ -2034,7 +2034,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
     title: String,
-    content: String,
+    description: String,
     id: Number
   }
 });
@@ -38465,7 +38465,7 @@ var render = function() {
                     _vm._v(" "),
                     _c("hr"),
                     _vm._v(" "),
-                    _c("article", [_vm._v(_vm._s(_vm.bookable.content))])
+                    _c("article", [_vm._v(_vm._s(_vm.bookable.description))])
                   ])
                 : _c("div", [_vm._v("Loading...")])
             ])
@@ -38511,7 +38511,7 @@ var render = function() {
           [_c("h5", { staticClass: "card-title" }, [_vm._v(_vm._s(_vm.title))])]
         ),
         _vm._v(" "),
-        _c("p", { staticClass: "card-text" }, [_vm._v(_vm._s(_vm.content))])
+        _c("p", { staticClass: "card-text" }, [_vm._v(_vm._s(_vm.description))])
       ],
       1
     )
@@ -54152,8 +54152,8 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Applications/MAMP/laravelbnb/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Applications/MAMP/laravelbnb/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Applications/MAMP/htdocs/laravelbnb/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Applications/MAMP/htdocs/laravelbnb/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

@@ -17,7 +17,7 @@ class BookableShowResource extends JsonResource
         return [
             'id' => $this->id,
             'title' => $this->title,
-            'content' => $this->content
+            'description' => $this->description
         ];
     }
 }
